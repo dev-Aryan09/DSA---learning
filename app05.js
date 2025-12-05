@@ -107,7 +107,7 @@ console.log("sMin", sMin);
 // -> with extra space (make an another array of same legth)
 /*
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let revArr = new Array(Array.length);//<- extra space
+let revArr = new Array(arr.length);//<- extra space
 
 let j = 0;
 for (let i = arr.length - 1; i >= 0; i--) {
